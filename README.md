@@ -1,2 +1,4 @@
 # IEN
 Information-Entropic Navigation (IEN): Active Inference for Low-Thrust Trajectory Optimization
+
+We propose Information-Entropic Navigation (IEN), an autonomous guidance, navigation, and control (GNC) framework that reframes trajectory error as information divergence between an agent's internal generative model and sensorimotor evidence. By operationalizing the Free Energy Principle, the control objective shifts from correcting accumulated Euclidean error to minimizing the Kullback-Leibler divergence (D_KL) between the predicted target state and the estimated posterior belief. We derive a continuous control law where the actuation vector acts purely to reduce expected uncertainty. Utilizing Solar Radiation Pressure (SRP) as a primary non-propellant actuator, simulations indicate that IEN can asymptotically reduce impulsive Δv requirements for deep-space station keeping, effectively substituting propellant mass with computational inference.
