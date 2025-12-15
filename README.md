@@ -57,6 +57,9 @@ python cr3bp_ien.py
 
 This will execute the numerical integration of the CR3BP equations of motion coupled with the Active Inference loop and generate the trajectory visualization.
 
----
 📜 Citation
+If you use this logic in your research, please cite the foundational paper:
+
 Brito, L. (2025). Information-Entropic Navigation (IEN): Active Inference for Low-Thrust Trajectory Optimization. Zenodo. https://doi.org/10.5281/zenodo.17930558
+
+Maintained by Leonel Brito | Researcher in Evolutionary Systems Dynamics & Information Physics.
